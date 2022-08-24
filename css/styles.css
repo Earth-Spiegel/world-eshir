@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display SC', serif;
+}
+
+filler-image-1 {
+    background-image: url(../img/port-city-4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/*Intro*/
+
+#intro {
+    background-image: url("../img/ultima_bar_by_arsenixc_dd0q64k-fullview.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ece6ce;
+}
+
+.content-box {
+    width: fit-content;
+    background-color: #3a3e5990;
+    border-radius: 3rem;
+}
+
+.intro-header {
+    padding: 20px;
+    font-size: 72px;
+}
+
+.intro-text {
+    padding: 0 20px 35px 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/*World Lore*/
+
+#world-lore {
+    height: fit-content;
+    padding: 16px 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3a3e59;
+}
+
+.world-lore-header {
+    border-bottom: 6px #ece6ce solid;
+    margin-bottom: 24px;
+    padding: 0px 20px 0px 20px;
+    color: #ece6ce;
+    font-size: 64px;
+}
+
+#world-lore .world-lore-text {
+    text-align: center;
+    color: #ece6ce;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+/*Current Lore*/
+
+#plot {
+    background-image: url(../img/solitude_by_huussii_dacz0o0-fullview.jpg);
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    padding: 16px 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#current-plot-header {
+    border-bottom: 6px #ece6ce solid;
+    margin-bottom: 24px;
+    padding: 0px 20px 0px 20px;
+    color: #ece6ce;
+    font-size: 64px;
+}
+
+#container-a {
+    background-color: #3a3e5990;
+    border-radius: 2rem;
+    padding: 16px;
+}
+
+#current-plot-text {
+    text-align: center;
+    color: #ece6ce;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+/*Gods and Aliens*/
+
+#gods-aliens {
+    padding: 16px 25px 25px 25px;
+    background-color: #3a3e59;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#gods-header {
+    border-bottom: 6px #ece6ce solid;
+    margin-bottom: 24px;
+    padding: 0px 20px 0px 20px;
+    color: #ece6ce;
+    font-size: 64px;
+}
+
+#gods-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 8px;
+    list-style: none;
+    color: #ece6ce;
+    font-size: 24px;
+}
+
+#gods-list li {
+    margin: 0 8px;
+}
+
+#known-aliens-header {
+    border-bottom: 6px #ece6ce solid;
+    margin-bottom: 24px;
+    padding: 0px 20px 0px 20px;
+    color: #ece6ce;
+    font-size: 64px;
+}
+
+/*Races*/
+
+#races {
+    background-image: url(../img/Samurai\ Champloo\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    padding: 16px 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#races-header {
+    border-bottom: 6px #ece6ce solid;
+    margin-bottom: 24px;
+    padding: 0px 20px 0px 20px;
+    color: #ece6ce;
+    font-size: 64px;
+}
+
+#races-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 8px;
+    list-style: none;
+    color: #ece6ce;
+    font-size: 24px;
+}
+
+
+
+/*Responsive Web*/
+@media screen and (max-width: 580px) {
+    .make-smaller {
+        width: 100%;
+    }
+   #current-plot-text .make-smaller, #services .make-smaller-p {
+        width: 100%;
+   }
+}
