@@ -16,8 +16,14 @@ filler-image-1 {
     height: 100vh;
 }
 
+#intro-button {
+    font-size: 32px;
+    padding: 8px;
+    display: inline-block;
+    margin: 12px 24px 16px;
+}
+
 a {
-    ;
     color: #ece6ce;
 }
 
@@ -147,6 +153,8 @@ a {
     list-style: none;
     color: #ece6ce;
     font-size: 24px;
+    background-color: #3a3e5960;
+    border-radius: 2rem;
 }
 
 #six-continents li {
@@ -156,6 +164,7 @@ a {
 
 /*! Different Continents !*/
 
+/*Slawgden*/
 #slawgden {
     background-image: url("../img/illuminated-ville-slawgden.jpg");
     background-position: center;
@@ -168,6 +177,121 @@ a {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+#slawg-header {
+    font-size: 64px;
+    color: #ece6ce;
+    background-color: #3a3e5960;
+    border-radius: 2rem;
+    padding: 16px;
+}
+
+/*Quishante*/
+#quishante {
+    background-image: url("../img/village-under-trees.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #ece6ce;
+}
+
+#quish-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#quish-header {
+    font-size: 64px;
+    color: #ece6ce;
+    background-color: #3a3e5960;
+    border-radius: 2rem;
+    padding: 16px;
+}
+
+/*Masolé*/
+#masole {
+    background-image: url("../img/the-northern-kingdom.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #ece6ce;
+}
+
+#mas-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#mas-header {
+    font-size: 64px;
+    color: #ece6ce;
+}
+
+/*Nevirit*/
+#nevirit {
+    background-image: url("../img/plains-2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #ece6ce;
+}
+
+#nev-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#nev-header {
+    font-size: 64px;
+    color: #ece6ce;
+    background-color: #3a3e5960;
+    border-radius: 2rem;
+    padding: 16px;
+}
+
+/*Pefirio*/
+#pefirio {
+    background-image: url("../img/dark-mountain-landscape.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #ece6ce;
+}
+
+#pef-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#pef-header {
+    font-size: 64px;
+    color: #ece6ce;
+}
+
+/*Alamir*/
+#alamir {
+    background-image: url("../img/desert-1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #ece6ce;
+}
+
+#alamir-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#alamir-header {
+    font-size: 64px;
+    color: #ece6ce;
 }
 
 /*Gods and Aliens*/
@@ -204,6 +328,7 @@ a {
 
 #gods-list li {
     margin: 4px 8px 0px;
+    border-bottom: 3px solid #ece6ce;
 }
 
 #known-aliens-header {
@@ -247,10 +372,14 @@ a {
     list-style: none;
     color: #ece6ce;
     font-size: 24px;
+    background-color: #3a3e5960;
+    border-radius: 2rem;
+    padding: 16px;
 }
 
 #races-list li {
     margin: 4px 8px 0px;
+    border-bottom: 3px solid #ece6ce;
 }
 
 
@@ -262,5 +391,10 @@ a {
     }
    #current-plot-text .make-smaller, #services .make-smaller-p {
         width: 100%;
+   }
+
+   #continent-header {
+    border-bottom: 6px #3a3e59 solid;
+    color: #3a3e59;
    }
 }
