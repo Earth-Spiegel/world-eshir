@@ -21,6 +21,9 @@ filler-image-1 {
     padding: 8px;
     display: inline-block;
     margin: 12px 24px 16px;
+    background-color: #3a3e5960;
+    border-radius: 16px;
+    padding: 12px;
 }
 
 a {
@@ -189,7 +192,7 @@ a {
 
 /*Quishante*/
 #quishante {
-    background-image: url("../img/village-under-trees.jpeg");
+    background-image: url("../img/jungle-city-3.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -324,11 +327,16 @@ a {
     list-style: none;
     color: #ece6ce;
     font-size: 24px;
+    text-align: center;
 }
 
 #gods-list li {
     margin: 4px 8px 0px;
     border-bottom: 3px solid #ece6ce;
+}
+
+.god-content {
+    margin-top: 5px;
 }
 
 #known-aliens-header {
@@ -337,6 +345,16 @@ a {
     padding: 0px 20px 0px 20px;
     color: #ece6ce;
     font-size: 64px;
+}
+
+/*Cards*/
+.card {
+    height: fit-content;
+    margin: 16px 16px 0;
+    padding: 24px;
+    text-align: center;
+    background-color: #ece6ce60;
+    border-radius: 24px;
 }
 
 /*Races*/
